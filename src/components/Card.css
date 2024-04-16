@@ -1,0 +1,23 @@
+.card {
+    padding: 20px;
+}
+
+.card-no-company {
+    color: crimson;
+    font-size: 14px;
+}
+
+.card-company {
+    font-size: 14px;
+}
+
+.card-audit-type {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.trash-bin {
+    float: right;
+    right: 0px;
+    margin-top: 10px;
+}

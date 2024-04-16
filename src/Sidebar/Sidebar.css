@@ -1,0 +1,81 @@
+.sidebar {
+    width: 15%;
+    position: absolute;
+    height: 100%;
+    border-right: 2px solid #e5e5e5;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .logo-container {
+    margin-bottom: 2rem;
+  }
+  
+  .logo-container h1 {
+    margin-top: 1.3rem;
+  }
+
+  .newfacilitybtn {
+    background-color: dodgerblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .wrapper{
+    margin-top: 10px;
+    margin-left: 90px;
+    transform: translate(-50%, -50%);
+  }
+
+  a4{
+    display: block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: center;
+    transition: all .35s;
+    margin-bottom: 35px;
+    margin-top: 120px;
+  }
+  
+  a4 span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  a4:after{
+    position: fixed;
+    content: "";
+    top: 121px;
+    left: 0;
+    width: 0;
+    height: 38px;
+    background: dodgerblue;
+    transition: all .35s;
+    cursor:pointer;
+  }
+  
+  a4:hover{
+    color: #fff;
+  }
+  
+  a4:hover:after{
+    left: 2px;
+    width: 176px;
+  }
